@@ -18,8 +18,10 @@ pip install -r  requirements.txt
 sudo -u postgres psql -c "create database codeforces;"
 alembic upgrade head
 ```
+### 3. Receive telegram token
+Open BotFather in telegram and generate a bot. After all set your telegram_token into settings.py 
 
-### 3. Run project
+### 4. Run project
 ```bash
 python manager.py parser parse-codeforces
 python manager.py parser telegram-bot
