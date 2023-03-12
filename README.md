@@ -20,7 +20,10 @@ alembic upgrade head
 ```
 
 ### 3. Run project
+#### Manually
 ```bash
-python manager.py parser parse-codeforces
-python manager.py parser telegram-bot
+python manager.py parser run
+python manager.py telegram-bot run
 ```
+
+#### From docker

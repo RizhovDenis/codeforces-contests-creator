@@ -65,7 +65,7 @@ def look_for_contests(message, bot, req_topic, chars):
 
 
 def exception_message(message, bot):
-    from apps.parser.utils.navigation import buttons
+    from apps.telegram.utils.navigation import buttons
 
     markup = buttons.inline_show_topics
     return bot.send_message(
